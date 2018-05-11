@@ -1,0 +1,5 @@
+<!-- ngif to check if databanks is empty before template renders -->
+<ul *ngIf="dataBanks">
+  <li>Turrets functional: {{ dataBanks.turretNumber }} </li>
+  <li>Turrets damaged: {{ dataBanks.damage }}</li>
+</ul>
